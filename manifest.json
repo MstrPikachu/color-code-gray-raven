@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Color-Code Gray Ravens",
+  "version": "1.0",
+  "description": "Color-code identical special terms in character kits for better readability.",
+  "host_permissions": ["https://grayravens.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
